@@ -7,7 +7,11 @@
     <link href="../dist/output.css" rel="stylesheet">
 </head>
 <body>
+            <!-- here i have 100vh and background cover and background position center and then i cheated a bit and used style to get the background image and put a black overlay on it -->
     <div class="h-screen bg-cover bg-center" style="background-image: radial-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.45)),url(images/fantasy-bg.jpeg);">
+
+
+        <!-- Here is just the header -->
         <header class="flex flex-row justify-between items-center pl-12 pr-12 h-20 text-white">
             <img class="text-3xl" src="" alt="Logo">
             <nav>
@@ -18,13 +22,17 @@
                 </ul>
             </nav>
         </header>
+        <!-- section for everything -->
         <section class="flex pl-32 h-3/4 items-center text-white">
+            <!-- div for the whole left side -->
             <div class="max-w-1xl leading-5 ">
+                <!-- headline  -->
                 <h1 class="text-7xl mb-5 font-bold">Project EverBlade</h1>
                 <p class="text-lg mb-4">Project EverBlade is a singleplayer rpg <br> where you roam around the Everglades <br> to explore and do quest</p>
                 <button class="border-solid rounded-md py-2 w-32 font-bold bg-red-700 mr-3 hover:bg-red-800 ease-in-out duration-500">LOGIN</button>
                 <button class="border-solid rounded-md py-2 w-32 font-bold bg-transparent border-white border-2 hover:text-black hover:bg-white ease-in-out duration-500 ">SIGN UP</button>
             </div>
+            <!-- div for all of the right side -->
             <div class="w-2/4 flex justify-center">
                 <img class="animate-bounce object-contain h-96 mix-blend-luminosity" src="images/download-removebg-preview.png" alt="">
             </div>
